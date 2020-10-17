@@ -1,0 +1,10 @@
+c:\users\104890\documents\visual studio 2013\Projects\OldIronFinalSolution\Domain\bin\Debug\Domain.dll
+c:\users\104890\documents\visual studio 2013\Projects\OldIronFinalSolution\Domain\bin\Debug\Domain.pdb
+c:\users\104890\documents\visual studio 2013\Projects\OldIronFinalSolution\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+c:\users\104890\documents\visual studio 2013\Projects\OldIronFinalSolution\Domain\obj\Debug\Domain.dll
+c:\users\104890\documents\visual studio 2013\Projects\OldIronFinalSolution\Domain\obj\Debug\Domain.pdb
+C:\Users\Diuari\Desktop\OldIron\Entra21\OldIronFinalSolution\Domain\bin\Debug\Domain.dll
+C:\Users\Diuari\Desktop\OldIron\Entra21\OldIronFinalSolution\Domain\bin\Debug\Domain.pdb
+C:\Users\Diuari\Desktop\OldIron\Entra21\OldIronFinalSolution\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Diuari\Desktop\OldIron\Entra21\OldIronFinalSolution\Domain\obj\Debug\Domain.dll
+C:\Users\Diuari\Desktop\OldIron\Entra21\OldIronFinalSolution\Domain\obj\Debug\Domain.pdb

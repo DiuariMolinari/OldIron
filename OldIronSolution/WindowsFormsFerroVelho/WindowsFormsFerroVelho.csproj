@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4EF2A05A-E78E-4582-BABD-A205D6560592}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsFerroVelho</RootNamespace>
+    <AssemblyName>WindowsFormsFerroVelho</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\Desktop\S.O. 3.0\OldIron\WindowsFormsFerroVelho\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\..\..\..\Desktop\S.O. 3.0\OldIron\WindowsFormsFerroVelho\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\..\..\..\Desktop\S.O. 3.0\OldIron\WindowsFormsFerroVelho\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormCadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroFuncionario.designer.cs">
+      <DependentUpon>FormCadastroFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroMarca.designer.cs">
+      <DependentUpon>FormCadastroMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroModelo.designer.cs">
+      <DependentUpon>FormCadastroModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroPeca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroPeca.designer.cs">
+      <DependentUpon>FormCadastroPeca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroTag.designer.cs">
+      <DependentUpon>FormCadastroTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfig.cs" />
+    <Compile Include="FormEdicaoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoFuncionario.designer.cs">
+      <DependentUpon>FormEdicaoFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoMarca.designer.cs">
+      <DependentUpon>FormEdicaoMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoModelo.designer.cs">
+      <DependentUpon>FormEdicaoModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoPeca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoPeca.designer.cs">
+      <DependentUpon>FormEdicaoPeca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdicaoTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdicaoTag.designer.cs">
+      <DependentUpon>FormEdicaoTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExclusaoFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExclusaoFuncionario.designer.cs">
+      <DependentUpon>FormExclusaoFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExclusaoMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExclusaoMarca.designer.cs">
+      <DependentUpon>FormExclusaoMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExclusaoModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExclusaoModelo.designer.cs">
+      <DependentUpon>FormExclusaoModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExclusaoPeca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExclusaoPeca.designer.cs">
+      <DependentUpon>FormExclusaoPeca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelpers\FormCleaner.cs" />
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPesquisaTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPesquisaTag.designer.cs">
+      <DependentUpon>FormPesquisaTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCadastroFuncionario.resx">
+      <DependentUpon>FormCadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroMarca.resx">
+      <DependentUpon>FormCadastroMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroModelo.resx">
+      <DependentUpon>FormCadastroModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroPeca.resx">
+      <DependentUpon>FormCadastroPeca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroTag.resx">
+      <DependentUpon>FormCadastroTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoFuncionario.resx">
+      <DependentUpon>FormEdicaoFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoMarca.resx">
+      <DependentUpon>FormEdicaoMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoModelo.resx">
+      <DependentUpon>FormEdicaoModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoPeca.resx">
+      <DependentUpon>FormEdicaoPeca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdicaoTag.resx">
+      <DependentUpon>FormEdicaoTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExclusaoFuncionario.resx">
+      <DependentUpon>FormExclusaoFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExclusaoMarca.resx">
+      <DependentUpon>FormExclusaoMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExclusaoModelo.resx">
+      <DependentUpon>FormExclusaoModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExclusaoPeca.resx">
+      <DependentUpon>FormExclusaoPeca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPesquisaTag.resx">
+      <DependentUpon>FormPesquisaTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicalLayer\BusinessLogicalLayer.csproj">
+      <Project>{cc4796b4-ebb2-4e6a-b868-d9e1a335e9b3}</Project>
+      <Name>BusinessLogicalLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{e6e59b67-b81c-497e-a0dc-f29c325f8a4f}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
